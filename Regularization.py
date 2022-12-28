@@ -1,16 +1,20 @@
 import numpy as np
 
 class LogisticRegression:
-    def __init__(self, step_size=0.2, max_steps=100):
+    def __init__(self, step_size=0.2, max_steps=100, reg_lambda = 0):
         self.step_size = step_size
         self.max_steps = max_steps
+        self.reg_lambda = reg_lambda
     
     def sigmoid(self, z):
         return 1 / (1 + np.exp(-z))
 
-    def log_likelihood(self, X, y, preds):
-        # Compute log likelihood
-        return 1 * (np.sum(y * np.log(preds) + (1 - y) * np.log(1 - preds)))
+    def log_likelihood(self, X, y, preds, ):
+        # Compute the regularization term
+        reg_term = self.reg_lambda/(2*len(y)) * np.sum(self.weights ** 2)
+
+        # Compute the loss with the regularization term
+        return (np.sum(y * np.log(preds) + (1 - y) * np.log(1 - preds)))/(len(y)) + reg_term
     
     def fit(self, X, y):
         
@@ -29,8 +33,8 @@ class LogisticRegression:
             reg_gradient = self.regularization_param * self.weights
             
             # The partial derivative of loss with respect to weights
-            # is the following equation
-            gradient = np.dot(X.T, (preds - y)) / y.size 
+            # The derivative of the regularization
+            gradient = np.dot(X.T, (preds - y)) / y.size + self.reg_term/y.size * self.weights
 
             # Update the weights with the step size * gradient
             self.weights -= self.step_size * gradient
