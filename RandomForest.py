@@ -1,4 +1,5 @@
 import numpy as np
+import pandas as pd
 from sklearn.tree import DecisionTreeClassifier
 
 class RandomForestClassifier:
@@ -49,12 +50,31 @@ class RandomForestClassifier:
     def predict(self, X):
         all_preds = []
         for tree in self.trees:
-            preds = tree.predict_proba(X)
+            preds = tree.predict_proba(X)[:,1]
+            print(tree.classes_)
             all_preds.append(preds)
         return np.mean(all_preds)
 
 
+if __name__=='__main__':
 
+    ## Create dummy dataframe
+    df = pd.DataFrame()
+    X1 = np.array([1,2,3,4,5,6,7,8,9,10])
+    X2 = np.array([4,5,6,4,5,1,7,8,9,10])
+    y = np.array([0,1,1,0,0,1,0,1,0,1])
+    df['col_1'] = X1
+    df['col_2'] = X2
+    df['y'] = y
+
+    X = df[['col_1','col_2']]
+    y = df['y']
+
+    dt = RandomForestClassifier()
+    dt.fit(X, y)
+    preds = dt.predict(X)
+
+    print(preds)
 
 
 
