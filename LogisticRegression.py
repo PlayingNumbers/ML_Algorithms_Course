@@ -1,3 +1,5 @@
+import numpy as np
+
 class LogisticRegression:
     def __init__(self, step_size=0.2, max_steps=100):
         self.step_size = step_size
@@ -6,16 +8,9 @@ class LogisticRegression:
     def sigmoid(self, z):
         return 1 / (1 + np.exp(-z))
 
-    def log_likelihood(self, X, y):
-        # Z = weights * inputs (X)
-        z = np.dot(X, self.weights)
-        
-        # Apply sigmoid transformation
-        # Resulting formula = 1/ 1+e^(-w * x)
-        h = self.sigmoid(z)
-
+    def log_likelihood(self, X, y, preds):
         # Compute log likelihood
-        return 1 * (np.sum(y * np.log(h) + (1 - y) * np.log(1 - h)))
+        return 1 * (np.sum(y * np.log(preds) + (1 - y) * np.log(1 - preds)))
     
     def fit(self, X, y):
         
@@ -24,16 +19,11 @@ class LogisticRegression:
 
         # Compute the loss with the initialized weights. 
         # You should expect the loss to be high. 
-        current_loss = self.log_likelihood(X,y)
+        preds = self.predict(X)
+        current_loss = self.log_likelihood(X, y, preds)
         
         # Running Gradient Descent
         for _ in range(self.max_steps):
-
-            # This is X * w. No intercept in this example.
-            z = np.dot(X, self.weights)
-            
-            # Using X * w, apply sigmoid transformation
-            preds = self.sigmoid(z)
             
             # The partial derivative of loss with respect to weights
             # is the following equation
@@ -42,13 +32,16 @@ class LogisticRegression:
             # Update the weights with the step size * gradient
             self.weights -= self.step_size * gradient
 
+            # Make prediction using current weights
+            preds = self.predict(X)
+
             # Compute new loss with new weights
-            new_loss = self.log_likelihood(X,y)
+            new_loss = self.log_likelihood(X,y,preds)
 
             # We want the loss to **increase** with each iteration. 
             # This is a Maximum Likelihood Estimation, we want to 
             # maximize our likelihood function.
-            if current_loss < new_loss:
+            if current_loss > new_loss:
                 break
 
             # Replace the loss
