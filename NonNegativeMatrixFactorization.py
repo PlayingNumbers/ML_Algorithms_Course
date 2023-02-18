@@ -16,10 +16,7 @@ class NMF:
 
         for n_iter in range(self.max_iter):
             # Update H
-            # XW = np.dot(X, self.W)
-            # HH = np.dot(self.H, self.H.T)
             self.H *= np.dot(self.W.T, X) / (np.dot(np.dot(self.W.T, self.W), self.H) + 1e-10)
-
 
             # Update W
             XH = np.dot(self.W, self.H)
