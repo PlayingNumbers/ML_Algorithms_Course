@@ -50,10 +50,9 @@ class RandomForestClassifier:
     def predict(self, X):
         all_preds = []
         for tree in self.trees:
-            preds = tree.predict_proba(X)[:,1]
-            print(tree.classes_)
+            preds = tree.predict(X)
             all_preds.append(preds)
-        return np.mean(all_preds)
+        return pd.DataFrame(all_preds).mean().values
 
 
 if __name__=='__main__':
