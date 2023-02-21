@@ -5,10 +5,12 @@ from itertools import product
 
 class HierarchicalClustering:
     def __init__(self, n_clusters, linkage='single'):
+        # Constructor method for the class, which sets the number of clusters and the linkage method.
         self.n_clusters = n_clusters
         self.linkage = linkage
 
     def fit(self, X):
+        # Fit method, which performs the clustering.
         self.n_samples = X.shape[0]
         self.clusters = [[i] for i in range(self.n_samples)]
         self.distances = self._calculate_distances(X)
@@ -20,6 +22,7 @@ class HierarchicalClustering:
             self.history.append((i, j))
 
     def _calculate_distances(self, X):
+        # Helper function to calculate the pairwise distances between points in the dataset.
         distances = np.zeros((self.n_samples, self.n_samples))
         for i in range(self.n_samples):
             for j in range(i+1, self.n_samples):
@@ -27,6 +30,7 @@ class HierarchicalClustering:
         return distances
 
     def _calculate_distance(self, x, y):
+        # Helper function to calculate the distance between two points based on the selected linkage method.
         if self.linkage == 'single':
             return np.min(np.abs(x - y))
         elif self.linkage == 'complete':
@@ -35,6 +39,7 @@ class HierarchicalClustering:
             return np.mean(np.abs(x - y))
 
     def _find_closest_pair(self):
+        # Helper function to find the two closest clusters.
         min_distance = np.inf
         closest_pair = None
         for i in range(len(self.clusters)):
@@ -46,6 +51,7 @@ class HierarchicalClustering:
         return closest_pair
 
     def _calculate_cluster_distance(self, c1, c2):
+        # Helper function to calculate the distance between two clusters based on the selected linkage method.
         distance = np.inf
         for i in c1:
             for j in c2:
@@ -55,15 +61,18 @@ class HierarchicalClustering:
         return distance
 
     def _merge_clusters(self, i, j):
+        # Helper function to merge two clusters.
         self.clusters[i] = self.clusters[i] + self.clusters[j]
         self.clusters.pop(j)
 
     def predict(self):
+        # Predict method, which returns the cluster labels for the original dataset.
         labels = np.zeros(self.n_samples, dtype=np.int32)
         for i, cluster in enumerate(self.clusters):
             for j in cluster:
                 labels[j] = i
         return labels
+        
 if __name__=='__main__':
 
     ## Create dummy dataframe
