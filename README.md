@@ -32,3 +32,12 @@ Please go to [Ankiweb.net](https://ankiweb.net) to download Anki and to sign up 
 - [Log Loss Function by Alex Dyakonov](https://dasha.ai/en-us/blog/log-loss-function)
 
 ## 4. Decision Tree
+- [Decision Trees Explained by James Thorn](https://towardsdatascience.com/decision-trees-explained-3ec41632ceb6)
+- [A Guide to Decision Trees for Beginners](https://www.kaggle.com/code/vipulgandhi/a-guide-to-decision-trees-for-beginners)
+- [Decision and Classification Trees, Clearly Explained!!! by Josh Starmer](https://www.youtube.com/watch?v=_L39rN6gz7Y&ab_channel=StatQuestwithJoshStarmer)
+- [Information Gain and Mutual Information for Machine Learning by Jason Brownlee](https://machinelearningmastery.com/information-gain-and-mutual-information/#:~:text=Mutual%20Information%20Related%3F-,What%20Is%20Information%20Gain%3F,samples%2C%20and%20hence%20less%20surprise.)
+- [A Simple Explanation of Information Gain and Entropy by Victor Zhou](https://victorzhou.com/blog/information-gain/)
+- [How to program a decision tree in Python from 0](https://anderfernandez.com/en/blog/code-decision-tree-python-from-scratch/)
+- 
+
+
