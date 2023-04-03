@@ -22,3 +22,13 @@ Please go to [Ankiweb.net](https://ankiweb.net) to download Anki and to sign up 
 ) and Lasso (𝐿1
 )?](https://stats.stackexchange.com/questions/184029/what-is-elastic-net-regularization-and-how-does-it-solve-the-drawbacks-of-ridge)
 - [Ridge, LASSO, and ElasticNet Regression](https://towardsdatascience.com/ridge-lasso-and-elasticnet-regression-b1f9c00ea3a3)
+
+## 3. Logistic Regression
+- [The Intuitive Explanation of Logistic Regression](https://towardsdatascience.com/the-intuitive-explanation-of-logistic-regression-a0375b1bee54)
+- [StatQuest: Logistic Regression](https://www.youtube.com/watch?v=yIYKR4sgzI8&ab_channel=StatQuestwithJoshStarmer)
+- [Logistic Regression by Andrew Ng](https://www.youtube.com/watch?v=-la3q9d7AKQ&ab_channel=ArtificialIntelligence-AllinOne)
+- [Logistic Regression by Amherst College](https://nhorton.people.amherst.edu/ips9/IPS_09_Ch14.pdf)
+- [Intuition behind Log-loss score](https://towardsdatascience.com/intuition-behind-log-loss-score-4e0c9979680a)
+- [Log Loss Function by Alex Dyakonov](https://dasha.ai/en-us/blog/log-loss-function)
+
+## 4. Decision Tree
