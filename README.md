@@ -66,11 +66,24 @@ Please go to [Ankiweb.net](https://ankiweb.net) to download Anki and to sign up 
 - [Gradient Boosting In Classification: Not a Black Box Anymore!](https://blog.paperspace.com/gradient-boosting-for-classification/)
 - [A Gentle Introduction to the Gradient Boosting Algorithm for Machine Learning](https://machinelearningmastery.com/gentle-introduction-gradient-boosting-algorithm-machine-learning/)
 
-# 8. XGBoost
+## 8. XGBoost
 - [XGBoost Paper](https://arxiv.org/abs/1603.02754)
 - [A Gentle Introduction to XGBoost for Applied Machine Learning](https://machinelearningmastery.com/gentle-introduction-xgboost-applied-machine-learning/)
 - [XGBoost A Scalable Tree Boosting System by Tianqi Chen](https://www.youtube.com/watch?v=Vly8xGnNiWs&ab_channel=RealDataScienceUSA%28formerlyDataScience.LA%29)
 - [CatBoost vs. LightGBM vs. XGBoost](https://towardsdatascience.com/catboost-vs-lightgbm-vs-xgboost-c80f40662924)
 - [XGBoost, LightGBM or CatBoost — which boosting algorithm should I use?](https://medium.com/riskified-technology/xgboost-lightgbm-or-catboost-which-boosting-algorithm-should-i-use-e7fda7bb36bc)
+
+## 9. K-Nearest Neighbors(KNN)
+- [KNN algorithm: Introduction to K-Nearest Neighbors Algorithm for Regression](https://www.analyticsvidhya.com/blog/2018/08/k-nearest-neighbor-introduction-regression-python/)
+- [K-Nearest Neighbors 👨‍👩‍👧‍👦](https://www.romaglushko.com/blog/k-nearest-neighbors/)
+- [Pros And Cons Of The K-Nearest Neighbors (KNN) Algorithm](https://roboticsbiz.com/pros-and-cons-of-the-k-nearest-neighbors-knn-algorithm/)
+- [StatQuest: K-nearest neighbors, Clearly Explained](https://www.youtube.com/watch?v=HVXime0nQeI&ab_channel=StatQuestwithJoshStarmer)
+- [The KNN Algorithm – Explanation, Opportunities, Limitations](https://neptune.ai/blog/knn-algorithm-explanation-opportunities-limitations#:~:text=KNN%20is%20most%20useful%20when,of%20desired%20precision%20and%20accuracy.)
+- [K-Nearest Neighbors (KNN) Classification with scikit-learn](https://www.datacamp.com/tutorial/k-nearest-neighbor-classification-scikit-learn)
+- [Develop k-Nearest Neighbors in Python From Scratch](https://machinelearningmastery.com/tutorial-to-implement-k-nearest-neighbors-in-python-from-scratch/)
+
+## 10. K-Means Clustering
+
+
 
 
