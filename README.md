@@ -98,4 +98,15 @@ Please go to [Ankiweb.net](https://ankiweb.net) to download Anki and to sign up 
 - [Lecture 3: Hierarchical Methods](https://cse.buffalo.edu/~jing/cse601/fa12/materials/clustering_hierarchical.pdf)
 - [Hierarchical Clustering in Python](https://blog.quantinsti.com/hierarchical-clustering-python/)
 
+## 12. Support Vector Machine
+- [Support Vector Machines: An Intuitive Approach](https://www.kdnuggets.com/2022/08/support-vector-machines-intuitive-approach.html)
+- [Support Vector Machine(SVM): A Complete guide for beginners](https://www.analyticsvidhya.com/blog/2021/10/support-vector-machinessvm-a-complete-guide-for-beginners/)
+- [Deep Dive into Support Vector Machine](https://towardsdatascience.com/deep-dive-into-support-vector-machine-654c8d517103)
+- [Support Vector Machines Part 1 (of 3): Main Ideas!!! by Josh Starmer](https://www.youtube.com/watch?v=efR1C6CvhmE&ab_channel=StatQuestwithJoshStarmer)
+- [SVM and Kernel SVM](https://towardsdatascience.com/svm-and-kernel-svm-fed02bef1200)
+- [Kernel Functions-Introduction to SVM Kernel & Examples](https://data-flair.training/blogs/svm-kernel-functions/)
+
+## 13. Artificial Neural Nets
+
+## 14. Collaborative Filtering
 
