@@ -48,7 +48,18 @@ Please go to [Ankiweb.net](https://ankiweb.net) to download Anki and to sign up 
 - [How to program a decision tree in Python from 0](https://anderfernandez.com/en/blog/code-decision-tree-python-from-scratch/)
 
 
-## 6. 
+## 6. Random Forest
+- [Building Intuition for Random Forests by Rishi Sidhu](https://medium.com/x8-the-ai-community/building-intuition-for-random-forests-76d36fa28c5e)
+- [An Introduction to Random Forest Algorithm for beginners](https://www.analyticsvidhya.com/blog/2021/10/an-introduction-to-random-forest-algorithm-for-beginners/)
+- [Feature Importance in Random Forest](https://mljar.com/blog/feature-importance-in-random-forest/)
+- [Detailed Explanation of Random Forests Features importance Bias](https://medium.com/@eng.mohammed.saad.18/detailed-explanation-of-random-forests-features-importance-bias-8755d26ac3bc)
+- [Random Forest: A Complete Guide for Machine Learning by Niklas Donges](https://builtin.com/data-science/random-forest-algorithm)
+- [Random Forest Simple Explanation by Will Koehrsen](https://williamkoehrsen.medium.com/random-forest-simple-explanation-377895a60d2d)
+- [Why Choose Random Forest and Not Decision Trees](https://towardsai.net/p/machine-learning/why-choose-random-forest-and-not-decision-trees)
+- [When to use Random Forest](https://datascience.stackexchange.com/questions/54751/when-to-use-random-forest)
+
+
+## 7. Gradient Boosted Trees
 
 
 
