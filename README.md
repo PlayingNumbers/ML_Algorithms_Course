@@ -83,7 +83,13 @@ Please go to [Ankiweb.net](https://ankiweb.net) to download Anki and to sign up 
 - [Develop k-Nearest Neighbors in Python From Scratch](https://machinelearningmastery.com/tutorial-to-implement-k-nearest-neighbors-in-python-from-scratch/)
 
 ## 10. K-Means Clustering
+- [Elbow Method for Finding the Optimal Number of Clusters in K-Means](https://www.analyticsvidhya.com/blog/2021/01/in-depth-intuition-of-k-means-clustering-algorithm-in-machine-learning/)
+- [Intuition Behind K-Means](https://pianalytix.com/intuition-behind-k-means/)
+- [k-Means Advantages and Disadvantages](https://developers.google.com/machine-learning/clustering/algorithm/advantages-disadvantages)
+- [Difference between K means and Hierarchical Clustering](https://www.geeksforgeeks.org/difference-between-k-means-and-hierarchical-clustering/#)
+- [Learn K-Means and Hierarchical Clustering Algorithms in 15 minutes](https://medium.com/sfu-cspmp/learn-k-means-and-hierarchical-clustering-algorithms-in-15-minute-221661bbec9e)
 
+## 11. Hierarchical Clustering
 
 
 
