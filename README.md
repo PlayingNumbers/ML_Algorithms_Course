@@ -90,6 +90,12 @@ Please go to [Ankiweb.net](https://ankiweb.net) to download Anki and to sign up 
 - [Learn K-Means and Hierarchical Clustering Algorithms in 15 minutes](https://medium.com/sfu-cspmp/learn-k-means-and-hierarchical-clustering-algorithms-in-15-minute-221661bbec9e)
 
 ## 11. Hierarchical Clustering
-
+- [Hierarchical clustering explained](https://towardsdatascience.com/hierarchical-clustering-explained-e59b13846da8)
+- [HOW THE HIERARCHICAL CLUSTERING ALGORITHM WORKS](https://dataaspirant.com/hierarchical-clustering-algorithm/)
+- [How to understand the drawbacks of Hierarchical Clustering?](https://stats.stackexchange.com/questions/183873/how-to-understand-the-drawbacks-of-hierarchical-clustering)
+- [Choosing the right linkage method for hierarchical clustering](https://stats.stackexchange.com/questions/195446/choosing-the-right-linkage-method-for-hierarchical-clustering)
+- [Agglomerative Hierarchical Clustering](https://online.stat.psu.edu/stat505/lesson/14/14.4)
+- [Lecture 3: Hierarchical Methods](https://cse.buffalo.edu/~jing/cse601/fa12/materials/clustering_hierarchical.pdf)
+- [Hierarchical Clustering in Python](https://blog.quantinsti.com/hierarchical-clustering-python/)
 
 
