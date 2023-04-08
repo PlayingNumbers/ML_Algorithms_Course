@@ -31,13 +31,24 @@ Please go to [Ankiweb.net](https://ankiweb.net) to download Anki and to sign up 
 - [Intuition behind Log-loss score](https://towardsdatascience.com/intuition-behind-log-loss-score-4e0c9979680a)
 - [Log Loss Function by Alex Dyakonov](https://dasha.ai/en-us/blog/log-loss-function)
 
-## 4. Decision Tree
+## 4. Gradient Descent
+- [Gradient Descent From Scratch by Analytics Vidhya](https://www.analyticsvidhya.com/blog/2021/05/gradient-descent-from-scratch-complete-intuition/#:~:text=The%20intuition%20behind%20Gradient%20Descent&text=We%20have%20to%20find%20the,between%20actual%20and%20predicted%20values.)
+- [Gradient descent, how neural networks learn](https://www.youtube.com/watch?v=IHZwWFHWa-w&ab_channel=3Blue1Brown)
+- [Stochastic Gradient Descent, Clearly Explained!!! by Josh Starmer](https://www.youtube.com/watch?v=vMh0zPT0tLI&ab_channel=StatQuestwithJoshStarmer)
+- [Gradient Descent Intuition — How Machines Learn](https://medium.com/x8-the-ai-community/gradient-descent-intuition-how-machines-learn-d29ad7464453)
+- [The Math and Intuition Behind Gradient Descent by Suraj Bansal](https://medium.datadriveninvestor.com/the-math-and-intuition-behind-gradient-descent-13c45f367a11)
+- [Batch gradient descent versus stochastic gradient descent](https://stats.stackexchange.com/questions/49528/batch-gradient-descent-versus-stochastic-gradient-descent)
+
+## 5. Decision Tree
 - [Decision Trees Explained by James Thorn](https://towardsdatascience.com/decision-trees-explained-3ec41632ceb6)
 - [A Guide to Decision Trees for Beginners](https://www.kaggle.com/code/vipulgandhi/a-guide-to-decision-trees-for-beginners)
 - [Decision and Classification Trees, Clearly Explained!!! by Josh Starmer](https://www.youtube.com/watch?v=_L39rN6gz7Y&ab_channel=StatQuestwithJoshStarmer)
 - [Information Gain and Mutual Information for Machine Learning by Jason Brownlee](https://machinelearningmastery.com/information-gain-and-mutual-information/#:~:text=Mutual%20Information%20Related%3F-,What%20Is%20Information%20Gain%3F,samples%2C%20and%20hence%20less%20surprise.)
 - [A Simple Explanation of Information Gain and Entropy by Victor Zhou](https://victorzhou.com/blog/information-gain/)
 - [How to program a decision tree in Python from 0](https://anderfernandez.com/en/blog/code-decision-tree-python-from-scratch/)
-- 
+
+
+## 6. 
+
 
 
