@@ -60,6 +60,17 @@ Please go to [Ankiweb.net](https://ankiweb.net) to download Anki and to sign up 
 
 
 ## 7. Gradient Boosted Trees
+- [The Intuition Behind Gradient Boosting & XGBoost by Bobby Tan](https://towardsdatascience.com/the-intuition-behind-gradient-boosting-xgboost-6d5eac844920)
+- [Gradient Boosting Algorithm: A Complete Guide for Beginners](https://www.analyticsvidhya.com/blog/2021/09/gradient-boosting-algorithm-a-complete-guide-for-beginners/)
+- [Gradient Boosting Trees vs. Random Forests](https://www.baeldung.com/cs/gradient-boosting-trees-vs-random-forests#:~:text=4.3.-,Advantages%20and%20Disadvantages,and%20start%20modeling%20the%20noise.)
+- [Gradient Boosting In Classification: Not a Black Box Anymore!](https://blog.paperspace.com/gradient-boosting-for-classification/)
+- [A Gentle Introduction to the Gradient Boosting Algorithm for Machine Learning](https://machinelearningmastery.com/gentle-introduction-gradient-boosting-algorithm-machine-learning/)
 
+# 8. XGBoost
+- [XGBoost Paper](https://arxiv.org/abs/1603.02754)
+- [A Gentle Introduction to XGBoost for Applied Machine Learning](https://machinelearningmastery.com/gentle-introduction-xgboost-applied-machine-learning/)
+- [XGBoost A Scalable Tree Boosting System by Tianqi Chen](https://www.youtube.com/watch?v=Vly8xGnNiWs&ab_channel=RealDataScienceUSA%28formerlyDataScience.LA%29)
+- [CatBoost vs. LightGBM vs. XGBoost](https://towardsdatascience.com/catboost-vs-lightgbm-vs-xgboost-c80f40662924)
+- [XGBoost, LightGBM or CatBoost — which boosting algorithm should I use?](https://medium.com/riskified-technology/xgboost-lightgbm-or-catboost-which-boosting-algorithm-should-i-use-e7fda7bb36bc)
 
 
