@@ -111,6 +111,22 @@ Please go to [Ankiweb.net](https://ankiweb.net) to download Anki and to sign up 
 - [Kernel Functions-Introduction to SVM Kernel & Examples](https://data-flair.training/blogs/svm-kernel-functions/)
 
 ## 13. Artificial Neural Nets
+- [Deep Learning vs. Classical ML](https://towardsdatascience.com/deep-learning-vs-classical-machine-learning-9a42c6d48aa)
+- [Backpropagation](https://brilliant.org/wiki/backpropagation/)
+- [Neural Networks by Analogy with Linear Regression](https://joshuagoings.com/2020/05/05/neural-network/)
+- [Neural Networks and Deep Learning](http://neuralnetworksanddeeplearning.com/)
+- [Colah's Blog](http://colah.github.io/)
+- [CNN's for Deep Learning](https://python.plainenglish.io/convolution-neural-network-cnn-in-deep-learning-77f5ab457166)
 
 ## 14. Collaborative Filtering
-
+- [Non-negative matrix factorization for recommendation systems](https://medium.com/logicai/non-negative-matrix-factorization-for-recommendation-systems-985ca8d5c16c)
+- [Collaborative Filtering Example - Google](https://developers.google.com/machine-learning/recommendation/collaborative/basics)
+- [Scikit Learn Decomposition](https://github.com/scikit-learn/scikit-learn/blob/ef5cb84a/sklearn/decomposition/nmf.py#L1235)
+- [Quick Intro Nonnegative Matrix Factorization](https://heather.cs.ucdavis.edu/NMFTutorial.pdf)
+- [Algorithms for Non-Negative Matrix Factorization](https://proceedings.neurips.cc/paper/2000/file/f9d1152547c0bde01830b7e8bd60024c-Paper.pdf)
+- [Optimal number of latent factors in non-negative matrix factorization?](https://stats.stackexchange.com/questions/111205/how-to-choose-an-optimal-number-of-latent-factors-in-non-negative-matrix-factori)
+- [How to Use Cross-Validation for Matrix Completion](https://towardsdatascience.com/how-to-use-cross-validation-for-matrix-completion-2b14103d2c4c)
+- [Matrix Factorization for Movie Recommendations in Python](https://beckernick.github.io/matrix-factorization-recommender/)
+- [NMF — A visual explainer and Python Implementation](https://towardsdatascience.com/nmf-a-visual-explainer-and-python-implementation-7ecdd73491f8)
+- [Recommendation System Series Part 4: The 7 Variants of Matrix Factorization For Collaborative Filtering](https://towardsdatascience.com/recsys-series-part-4-the-7-variants-of-matrix-factorization-for-collaborative-filtering-368754e4fab5)
+- [Collaborative Filtering: Matrix Factorization Recommender System](https://www.jiristodulka.com/post/recsys_cf/)
