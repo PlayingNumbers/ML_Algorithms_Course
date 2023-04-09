@@ -1,6 +1,10 @@
 # MLAlgorithmsCourse
 This is the public repository for the ML Algorithms Course. In this course, we walk you through the ins and outs of each ML Algorithm. We did not build this course ourselves. We stood on the shoulders of giants. We think its only fair to credit all the resources we used to build this course, as we could not have created this course without the help of the ML community. 
 
+## Coding Project Examples
+- [Regression Project - Kaggle](https://www.kaggle.com/code/kenjee/exhaustive-regression-parameter-tuning)
+- [Classification Project - Kaggle](https://www.kaggle.com/code/kenjee/exhaustive-classification-parameter-tuning)
+
 ## Flashcards
 Please go to [Ankiweb.net](https://ankiweb.net) to download Anki and to sign up for account. Please go [here](https://github.com/PlayingNumbers/ML_Process_Course/blob/main/365datascience_ml_process_flashcards.apkg) to download the flashcards for this course.
 
