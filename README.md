@@ -2,15 +2,11 @@
 This is the public repository for the 365 Data Science ML Algorithms Course by Ken Jee and Jeff Li. In this course, we walk you through the ins and outs of each ML Algorithm. We did not build this course ourselves. We stood on the shoulders of giants. We think its only fair to credit all the resources we used to build this course, as we could not have created this course without the help of the ML community. This course includes the following:
 - Detailed explanations of each ML algorithm (listed below) with specifics on how they work, pros and cons, when to use them, and data preprocessing needed for each one.
 - Two projects using all of the classification and regression algorithms with detailed instructions on parameter tuning
-- Flashcards to help you remember these algorithms and prepare for jobs 
 - Resources that we used to build the course so you have additional details on each topic
 
 ## Coding Project Examples
 - [Regression Project - Kaggle](https://www.kaggle.com/code/kenjee/exhaustive-regression-parameter-tuning)
 - [Classification Project - Kaggle](https://www.kaggle.com/code/kenjee/exhaustive-classification-parameter-tuning)
-
-## Flashcards
-Please go to [Ankiweb.net](https://ankiweb.net) to download Anki and to sign up for account. Please go [here](https://github.com/PlayingNumbers/ML_Process_Course/blob/main/365datascience_ml_process_flashcards.apkg) to download the flashcards for this course.
 
 
 ## 1. Linear Regression
