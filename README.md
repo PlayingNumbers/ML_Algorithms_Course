@@ -8,6 +8,8 @@ This is the public repository for the 365 Data Science ML Algorithms Course by K
 - [Regression Project - Kaggle](https://www.kaggle.com/code/kenjee/exhaustive-regression-parameter-tuning)
 - [Classification Project - Kaggle](https://www.kaggle.com/code/kenjee/exhaustive-classification-parameter-tuning)
 
+## Flashcards
+Please go to Ankiweb.net to download Anki and to sign up for account. Please go [here](https://github.com/PlayingNumbers/ML_Algorithms_Course/blob/main/365_Data_Science_ML_Algorithms_A_to_Z.apkg) to download the flashcards for this course.
 
 ## 1. Linear Regression
 - [Linear Regression, Clearly Exlplained!!! by StatQuest](https://www.youtube.com/watch?v=nk2CQITm_eo&ab_channel=StatQuestwithJoshStarmer)
