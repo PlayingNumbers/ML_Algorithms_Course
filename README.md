@@ -4,7 +4,7 @@ This is the public repository for the 365 Data Science ML Algorithms Course by K
 - Two projects using all of the classification and regression algorithms with detailed instructions on parameter tuning
 - Resources that we used to build the course so you have additional details on each topic
 
-**Use the discount link for our course bundle (68% off!)** --> [The Machine Learning A-Z Bundle](https://bit.ly/3NAZ5oP)
+**Use the discount link for our 3 course bundle (68% off!)** --> [The Machine Learning A-Z Bundle](https://bit.ly/3NAZ5oP)
 ## Coding Project Examples
 - [Regression Project - Kaggle](https://www.kaggle.com/code/kenjee/exhaustive-regression-parameter-tuning)
 - [Classification Project - Kaggle](https://www.kaggle.com/code/kenjee/exhaustive-classification-parameter-tuning)
